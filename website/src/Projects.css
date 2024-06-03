@@ -1,16 +1,3 @@
-/* Projects Styles */
-
-/* --sydney-global-color-1: #d65050; red
---sydney-global-color-2: #b73d3d; red
---sydney-global-color-3: #233452; blue
---sydney-global-color-4: #00102E;
---sydney-global-color-5: #737C8C; gray
---sydney-global-color-6: #00102E;
---sydney-global-color-7: #F4F5F7; very light gray
---sydney-global-color-8: #dbdbdb;
---sydney-global-color-9: #ffffff; 
-previous: #00102E; */
-
 .projects-header {
     display: flex;
     flex-direction: column;
@@ -24,14 +11,13 @@ previous: #00102E; */
 .projects {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    flex-wrap: wrap;
-    justify-content: space-around;
+    gap: 0.5rem; 
+    justify-content: space-between; 
     align-items: flex-start;
     min-height: 100vh;
     width: 100%;
     text-align: center;
-    margin-right: 1rem;
-    margin-left: 1rem;
+    padding: 0 1rem; 
     text-align: left;
 }
 
@@ -39,23 +25,23 @@ previous: #00102E; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 30vh;
-    width: 45vw;
+    min-height: 35vh; 
+    width: 45vw; 
     margin: 0.25rem;
     padding: 1rem;
     border-radius: 10px;
     text-decoration: none;
     color: black;
+    background-color: #f7fbff;
+    transition: box-shadow 0.3s ease-in-out;
 }
 
 .project-box h2 {
     text-align: left;
 }
-  
+
 .project-box:hover {
-    background-color: rgb(255, 255, 255);
-    border-color: #233452;
-    border-style: solid;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (max-width: 800px) {
@@ -83,4 +69,3 @@ previous: #00102E; */
         /* font-size: 4vw; */
     }
 }
-  
