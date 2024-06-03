@@ -19,6 +19,8 @@ function Home() {
                 {/* <div className='scroll-indicator'>↓</div> */}
             </section>
             <section className='bio'>
+              <br></br>
+              <br></br>
               <h1> About Me </h1>
               <div className='horizontal-line'></div>
               <div className='bio-text-container'>

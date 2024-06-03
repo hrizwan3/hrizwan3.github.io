@@ -28,7 +28,10 @@ function Projects() {
                         <h2>Flight Delays and Cancellations</h2>
                         <p>A three-person project focused on analyzing flight data to predict delays and cancellations. The project used Python libraries like Pandas, Scikit-Learn, and TensorFlow to apply machine learning techniques such as Random Forests, Naive Bayes, Logistic Regression, and Neural Networks, focusing on variables like date, time, and flight routes.</p>
                     </a>
-
+                    <a className='project-box' href= 'https://github.com/hrizwan3/Movie-Grapher'>
+                        <h2>Movie Grapher</h2>
+                        <p>This project provides functions to find distances and make recommendations based on a graph of movies and actors from the IMDb database. Users can find the farthest actors or movies or get movie recommendations based on their favorite movies or actors, using algorithms involving triadic closure and neighborhood overlap. The program operates through a user shell interface, leveraging cleaned IMDb data for its calculations.</p>
+                    </a>
                     <a className='project-box'>
                         <h2>Embedded Pong</h2>
                         <p>The classic game of Pong, developed using a TFT LCD module and joystick control through bare metal C. It featured a wireless integration using the NodeMCU board and Blynk platform, enabling remote control of player paddles.</p>
