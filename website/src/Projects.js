@@ -12,6 +12,10 @@ function Projects() {
                     <p>During my time at Penn, I've had the opportunity to work on Software Engineering and Data Science projects alike. Here's a list of a few of them.</p>
                 </div>
                 <div className='projects'>
+                    <a className='project-box' href= 'https://hrizwan3.github.io/QuickConvert/'>
+                            <h2>QuickConvert</h2>
+                            <p>A Chrome Extension allowing users to highlight a currency and price on a webpage, converting the price into the desired target currency and displaying it in a popup. Users can select their desired target currency in the dropdown menu when clicking on the extension's icon. Rates are from the CurrencyLayer API, cached every 8 hours.</p>
+                    </a>
                     <a className='project-box' href= 'https://github.com/hrizwan3/AutoAvenue'>
                         <h2>AutoAvenue</h2>
                         <p>A web application designed for users to check and compare used car prices and reviews across the market. The features include search, reviews, popular cars, efficient cars, and hidden gems.</p>
