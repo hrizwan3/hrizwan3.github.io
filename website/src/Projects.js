@@ -25,7 +25,7 @@ function Projects() {
                     </div>
                     <div className='project-box'>
                         <h2>AutoAvenue</h2>
-                        <p>A web application designed for users to check and compare used car prices and reviews across the market. The features include search, reviews, popular cars, efficient cars, and hidden gems.</p>
+                        <p>A web application designed for users to check and compare used car prices and reviews across the market. The features include search, reviews, popular cars, efficient cars, and hidden gems. This project was backed by a MySQL database hosted on AWS RDS and used Unsplash API to display images of the car being viewed.</p>
                         <a href='https://github.com/hrizwan3/AutoAvenue' target='_blank' rel='noopener noreferrer'>
                             <FontAwesomeIcon icon={faGithub} /> View on GitHub
                         </a>
