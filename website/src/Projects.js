@@ -43,14 +43,10 @@ function Projects() {
                     </div>
                     <div className='project-box'>
                         <h2>Movie Grapher</h2>
-                        <p>This project provides functions to find distances and make recommendations based on a graph of movies and actors from the IMDb database. Users can find the farthest actors or movies or get movie recommendations based on their favorite movies or actors, using algorithms involving triadic closure and neighborhood overlap. The program operates through a user shell interface, leveraging cleaned IMDb data for its calculations.</p>
+                        <p>Movie Grapher is a tool for analyzing and recommending movies based on a graph of movies and actors from the IMDb database. The data was cleaned using Python's Pandas library, and the rest of the project was implemented in Java. Features include finding the farthest actors or movies and providing movie recommendations based on favorite movies or actors, using algorithms like triadic closure and neighborhood overlap.</p>
                         <a href='https://github.com/hrizwan3/Movie-Grapher' target='_blank' rel='noopener noreferrer'>
                             <FontAwesomeIcon icon={faGithub} /> View on GitHub
                         </a>
-                    </div>
-                    <div className='project-box'>
-                        <h2>Embedded Pong</h2>
-                        <p>The classic game of Pong, developed using a TFT LCD module and joystick control through bare metal C. It featured a wireless integration using the NodeMCU board and Blynk platform, enabling remote control of player paddles.</p>
                     </div>
                     <div className='project-box'>
                         <h2>Sudoku Solver</h2>
@@ -58,12 +54,6 @@ function Projects() {
                         <a href='https://github.com/hrizwan3/Sudoku-Game-Solver' target='_blank' rel='noopener noreferrer'>
                             <FontAwesomeIcon icon={faGithub} /> View on GitHub
                         </a>
-                    </div>
-                    <div className='project-box'>
-                        <h2>Senator Tweet Statistics</h2>
-                        <p>
-                            A SQL project to determine the activity of U.S. Senators on Twitter. The tweets were extracted and stored in an Azure SQL Database using web scraping tools. Statistical analysis was then performed to determine engagement and activity per Senator per party, providing valuable insights into the dynamics of political discourse on social media.
-                        </p>
                     </div>
                     <div className='project-box'>
                         <h2>AI Safe</h2>
@@ -74,6 +64,16 @@ function Projects() {
                             <FontAwesomeIcon icon={faGithub} /> View on GitHub
                         </a>
                     </div>
+                    <div className='project-box'>
+                        <h2>Embedded Pong</h2>
+                        <p>The classic game of Pong, developed using a TFT LCD module and joystick control through bare metal C. It featured a wireless integration using the NodeMCU board and Blynk platform, enabling remote control of player paddles.</p>
+                    </div>
+                    {/* <div className='project-box'>
+                        <h2>Senator Tweet Statistics</h2>
+                        <p>
+                            A SQL project to determine the activity of U.S. Senators on Twitter. The tweets were extracted and stored in an Azure SQL Database using web scraping tools. Statistical analysis was then performed to determine engagement and activity per Senator per party, providing valuable insights into the dynamics of political discourse on social media.
+                        </p>
+                    </div> */}
                 </div>
             </div>
         </div>
