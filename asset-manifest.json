@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2536eb17.css",
-    "main.js": "/static/js/main.5a054c2d.js",
+    "main.js": "/static/js/main.218e01df.js",
     "static/js/787.c922dae8.chunk.js": "/static/js/787.c922dae8.chunk.js",
     "static/media/Hassan Rizwan Resume.pdf": "/static/media/Hassan Rizwan Resume.498d46fd24a42a6c9b8d.pdf",
     "static/media/homepage-pic.jpg": "/static/media/homepage-pic.cdadc72ab07117076c18.jpg",
@@ -9,11 +9,11 @@
     "static/media/mail.svg": "/static/media/mail.1d38d36da9d40649be25d848f2dc24b8.svg",
     "index.html": "/index.html",
     "main.2536eb17.css.map": "/static/css/main.2536eb17.css.map",
-    "main.5a054c2d.js.map": "/static/js/main.5a054c2d.js.map",
+    "main.218e01df.js.map": "/static/js/main.218e01df.js.map",
     "787.c922dae8.chunk.js.map": "/static/js/787.c922dae8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2536eb17.css",
-    "static/js/main.5a054c2d.js"
+    "static/js/main.218e01df.js"
   ]
 }
